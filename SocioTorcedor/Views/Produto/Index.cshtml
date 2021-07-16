@@ -1,0 +1,39 @@
+﻿@model IEnumerable<SocioTorcedor.Models.Produtos.Produto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Produtos</h1>
+
+<h2>Camisetas</h2>
+
+<p>
+    Lista de camisetas
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preco)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
