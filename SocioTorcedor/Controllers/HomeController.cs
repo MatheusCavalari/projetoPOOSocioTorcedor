@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SocioTorcedor.Models;
+using SocioTorcedor.Models.Produtos;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -25,6 +26,12 @@ namespace SocioTorcedor.Controllers
 
         public IActionResult Ingressos()
         {
+            List<Ingresso> produtos = new List<Ingresso>();
+
+            produtos.Add(new Ingresso("Futebol", 40));
+            produtos.Add(new Ingresso("Basquete", 50));
+            produtos.Add(new Ingresso("Futebol", 40));
+            produtos.Add(new Ingresso("Basquete", 50));
             return View();
         }
 

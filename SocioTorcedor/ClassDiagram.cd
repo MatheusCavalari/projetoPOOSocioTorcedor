@@ -1,35 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="SocioTorcedor.Models.Produtos.Produto">
-    <Position X="1.75" Y="0.75" Width="3.25" />
+    <Position X="6.75" Y="0.5" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAQUAAEAAAA=</HashCode>
       <FileName>Models\Produtos\Produto.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SocioTorcedor.Models.Produtos.Chuteira">
-    <Position X="0.5" Y="4.5" Width="2.75" />
+    <Position X="6.5" Y="3.75" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Produtos\Chuteira.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SocioTorcedor.Models.Produtos.Ingresso">
-    <Position X="4" Y="4.5" Width="3.25" />
+    <Position X="9.5" Y="3.75" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
       <FileName>Models\Produtos\Ingresso.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SocioTorcedor.Models.Produtos.Vestuario">
-    <Position X="6.25" Y="1" Width="2.75" />
+    <Position X="11" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAEAAAgAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Produtos\Vestuario.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SocioTorcedor.Models.Produtos.Calca">
-    <Position X="7.75" Y="4.25" Width="3" />
+    <Position X="12.5" Y="3.5" Width="2.75" />
+    <InheritanceLine Type="SocioTorcedor.Models.Produtos.Vestuario" FixedToPoint="true">
+      <Path>
+        <Point X="12.375" Y="2.569" />
+        <Point X="12.375" Y="3.125" />
+        <Point X="13.531" Y="3.125" />
+        <Point X="13.531" Y="3.5" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AEAAAAAAIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\Produtos\Calca.cs</FileName>
@@ -37,7 +45,7 @@
     <Lollipop Orientation="Right" Position="0.122" />
   </Class>
   <Class Name="SocioTorcedor.Models.Produtos.Camiseta">
-    <Position X="10.25" Y="1" Width="3" />
+    <Position X="14.75" Y="0.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAgAAAAAAAAAAAAAAAAAAAAAgQAAAAAAA=</HashCode>
       <FileName>Models\Produtos\Camiseta.cs</FileName>
@@ -45,21 +53,21 @@
     <Lollipop Orientation="Bottom" Position="2.025" />
   </Class>
   <Class Name="SocioTorcedor.Models.Endereco">
-    <Position X="0.5" Y="9.25" Width="2.5" />
+    <Position X="2.75" Y="10.25" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAACIAAAAAAACAAAAAAAAAAAAAAAABAAg=</HashCode>
       <FileName>Models\Endereco.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SocioTorcedor.Models.Cliente">
-    <Position X="6" Y="9.25" Width="3.5" />
+    <Position X="6" Y="9.75" Width="3.5" />
     <TypeIdentifier>
       <HashCode>AAAAEAAAgCAAAABAAAAAAAAAIAAAAAAAAAAEAAEAAAA=</HashCode>
       <FileName>Models\Cliente.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SocioTorcedor.Models.ClienteSocioGold">
-    <Position X="2.75" Y="13.75" Width="4" />
+    <Position X="3.5" Y="13.25" Width="4" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\ClienteSocioGold.cs</FileName>
@@ -67,7 +75,7 @@
     <Lollipop Orientation="Bottom" Position="3.8" />
   </Class>
   <Class Name="SocioTorcedor.Models.ClienteSocioSilver">
-    <Position X="9.25" Y="13.75" Width="4" />
+    <Position X="8.25" Y="13.25" Width="4" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Models\ClienteSocioSilver.cs</FileName>
@@ -76,14 +84,14 @@
     <Lollipop Orientation="Bottom" Position="0.159" />
   </Class>
   <Interface Name="SocioTorcedor.Interfaces.IProduto">
-    <Position X="11.25" Y="3.5" Width="2.75" />
+    <Position X="15.75" Y="3" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IProduto.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="SocioTorcedor.Interfaces.ISocio">
-    <Position X="6.5" Y="15.5" Width="3.25" />
+    <Position X="6.5" Y="14.75" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\ISocio.cs</FileName>
